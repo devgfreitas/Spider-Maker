@@ -27,7 +27,7 @@ body {
     color: white;
     text-align: center;
     user-select: none;
-    animation: startpress infinite linear;
+    animation: startpress 2s infinite linear;
 }
 
 .startmessage > h2 > span {
@@ -42,9 +42,11 @@ body {
     0% {
         font-size: 25px;
     }
-
+    50% {
+        font-size: 30px;
+    }
     100% {
-        font-size: 40px;
+        font-size: 25px;
     }
 }
 
