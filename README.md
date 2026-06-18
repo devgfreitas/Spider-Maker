@@ -1,1 +1,1 @@
-# Spider-Maker
+This project is a fan-made recreation for educational purposes only. Marvel's Spider-Man and all related assets, trademarks and copyrights belong to Insomniac Games, Sony Interactive Entertainment and Marvel. No copyright infringement is intended.
