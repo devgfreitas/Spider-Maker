@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    width: 100%;
 }
 
 .container {
@@ -15,6 +16,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .startmessage > h1 {
@@ -60,4 +70,16 @@ body {
 .warningmessage > h3 {
     color: white;
     user-select: none;
+    font-size: 25px;
+}
+
+.startmenu {
+    position: absolute;
+    left: 5%;
+    z-index: 2;
+    background-image: linear-gradient(#10649C, #202e3986);
+}
+
+.startmbtns {
+    background-color: #10649C;
 }
