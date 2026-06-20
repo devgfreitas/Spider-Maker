@@ -39,11 +39,42 @@ document.addEventListener('keydown', function(event) {
                 <div class='startmbtns'>
                     <div class="linhav"></div>
 
-                    <ul>
-                        <li><button>Load Game</button></li>
-                        <li><button>Settings</button></li>
-                        <li><button>Credits</button></li>
-                        <li><button>Quit Game</button></li>
+                    <ul class='startmenulist'>
+                        <li><button>
+                            Load Game
+                            <span class="tl"></span>
+                            <span class="tr"></span>
+                            <span class="bl"></span>
+                            <span class="br"></span>
+                        </button></li>
+                        <li><button>
+                            Settings
+                            <span class="tl"></span>
+                            <span class="tr"></span>
+                            <span class="bl"></span>
+                            <span class="br"></span>
+                        </button></li>
+                        <li><button>
+                            GitHub
+                            <span class="tl"></span>
+                            <span class="tr"></span>
+                            <span class="bl"></span>
+                            <span class="br"></span>
+                        </button></li>
+                        <li><button>
+                            Credits
+                            <span class="tl"></span>
+                            <span class="tr"></span>
+                            <span class="bl"></span>
+                            <span class="br"></span>
+                        </button></li>
+                        <li class='quitgamebtn'><button>
+                            Quit Game
+                            <span class="tl"></span>
+                            <span class="tr"></span>
+                            <span class="bl"></span>
+                            <span class="br"></span>
+                        </button></li>
                     </ul>
                 </div>
             </div>
